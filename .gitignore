@@ -1,0 +1,44 @@
+#Security & Secrets
+.env
+.env.local
+.env.*.local
+*.env
+secrets.json
+credentials.json
+
+#Python Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Python Caching & Compiled Files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+
+#Local Databases
+*.db
+*.sqlite
+*.sqlite3
+
+.chroma/
+chromadb/
+data/chroma/
+vector_db/
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# Operating System Files
+.DS_Store
+Thumbs.db
